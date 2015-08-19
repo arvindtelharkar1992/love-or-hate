@@ -53,12 +53,8 @@ var content = current_tweet.text.toLowerCase();
    love_percentage: (count_love/count_total)*100,
    hate_percentage: (count_hate/count_total)*100
     });
-
-  
   });
 });
-
-
 });
 
 // view engine setup
@@ -106,6 +102,5 @@ app.use(function(err, req, res, next) {
         error: {}
     });
 });
-
 
 module.exports = app;
